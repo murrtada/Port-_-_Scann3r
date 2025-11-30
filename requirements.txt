@@ -1,0 +1,6 @@
+
+# Requirements for Port-_-_Scann3r
+
+# No third‑party Python libraries are needed.
+
+# All modules used are included with Python by default.
