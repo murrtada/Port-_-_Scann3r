@@ -1,0 +1,81 @@
+# Port-_-_Scann3r Guide
+
+This guide explains how to use the Port-_-_Scann3r tool, its features, and some technical insights.
+
+---
+
+## 1. Overview
+
+Port-_-_Scann3r is a Python-based port scanner designed for learning purposes.  
+It scans open ports on a given target IP or domain, shows the service name.
+
+---
+
+## 2. Requirements
+
+- Python 3.x
+- (Windows)
+- Internet connection for domain resolution
+
+---
+
+## 3. Running the Tool
+
+1. Open terminal or command prompt.
+
+2. Navigate to the project directory:
+
+3. Run the scanner:
+
+4. Enter a target domain or IP when prompted:
+
+
+---
+
+## 4. Features Explained
+
+- **Multi-threaded scanning:** Uses multiple threads to scan ports faster.
+- **Open port detection:** Detects if a port is open and prints its service.
+- **Invalid domain handling:** Prompts the user again if the domain cannot be resolved.
+- **Safe exit:** Press Ctrl+C to stop scanning without errors.
+
+---
+
+## 5. Extending the Tool
+
+You can modify the following in `scanner.py`:
+
+- **Port range:** Change `range(1, 1025)` to scan more or fewer ports.
+- **Timeout:** Adjust `s.settimeout(0.5)` for slower/faster scanning.
+- **Threads:** Modify sleep time in thread creation for console clarity.
+
+---
+
+## 6. Best Practices
+
+- Scan only targets you own or have permission to scan.
+- Avoid scanning very large port ranges on public servers to prevent detection.
+- Combine this tool with other learning projects for better understanding of network security.
+
+---
+
+## 7. Learning Notes
+
+Building this tool helps understand:
+
+- How **sockets** work in Python
+- Basics of **multi-threading**
+- Handling user input and exceptions
+- Structuring a small project for learning and sharing
+
+---
+
+## 8. Additional Resources
+
+- [Python Socket Documentation](https://docs.python.org/3/library/socket.html)
+- [Threading in Python](https://docs.python.org/3/library/threading.html)
+- [Port Scanning Basics](https://owasp.org/www-community/Port_Scanning)
+
+
+
+
