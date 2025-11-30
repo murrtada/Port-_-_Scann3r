@@ -21,7 +21,6 @@ Designed for learners, researchers, and practical security testing.
 
 - Detect open ports quickly   
 - Handles invalid domain input and asks again  
-- Safe exit when user presses **Ctrl + C**  
 - Simple syntax, easy to understand and modify  
 
 ---
